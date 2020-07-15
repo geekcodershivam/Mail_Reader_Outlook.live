@@ -5,6 +5,7 @@
 
 <img src="https://user-images.githubusercontent.com/10379601/29446482-04f7036a-841f-11e7-9872-91d1fc2ea683.png" height="200" align="right">
 
+Its primary purpose is to facilitate seamless e-mailing via Outlook Mail. In this Script, the user only needs to enter the recipient of the mail, the subject of the mail, and the Content of the Mail itself. The rest is handled by the script. It uses NodeJS with the puppeteer module to facilitate automated browser usage which first accesses www.outlook.live.com, then proceeds to log in to outlook mail using the credentials provided to it beforehand in a separate file. Once logged in, the script tells the browser to create a new mail, and then enters the details of the mail that it took as input earlier. Once all the data has been inputted, the browser sends the mail and shows a pop up at the bottom left, letting us know that the mail has been sent.
 
 ``` bash
 # install dependencies
